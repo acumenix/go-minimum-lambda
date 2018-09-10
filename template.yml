@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'Nagashi'
+Parameters:
+  LambdaRoleArn:
+    Type: String
+
+Resources:
+  MyFunc:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: build
+      Handler: myfunc
+      Runtime: go1.x
+      Timeout: 30
+      MemorySize: 128
+      Role:
+        Ref: LambdaRoleArn
