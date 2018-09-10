@@ -1,0 +1,5 @@
+StackName=mizutani-test
+CodeS3Bucket=mizutani-test
+CodeS3Prefix=functions
+
+LambdaRoleArn=arn:aws:iam::123456789:role/LambdaTestRole
