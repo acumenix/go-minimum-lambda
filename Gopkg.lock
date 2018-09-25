@@ -11,18 +11,9 @@
   revision = "2d482ef09017ae953b1e8d5a6ddac5b696663a3c"
   version = "v1.6.0"
 
-[[projects]]
-  name = "github.com/magefile/mage"
-  packages = [
-    "mg",
-    "types"
-  ]
-  revision = "bd5486e7f905b69c168b13088e12fa84d779799e"
-  version = "1.3.0"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "433ce01f7e6dccf59a42e3612b523602b37c5b84ea9559222d1d803a96b0a133"
+  inputs-digest = "b8dd0029a4fdeb7af0a8e1ea1aa7244250ec6eb9d9a98d2816e4dc05cb972b29"
   solver-name = "gps-cdcl"
   solver-version = 1
